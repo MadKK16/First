@@ -1,4 +1,4 @@
-from asyncore import ExitNow
+
 from turtle import *
 
 
@@ -46,10 +46,15 @@ left(120)
 forward(200)
 end_fill()
 
+penup()
+goto(200, 200)
+pendown()
 
 
 
-
+color("brown")
+forward(100)
+right(60)
 
 
 exitonclick()
